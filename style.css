@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-color: #D5E1EF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.qr-code{
+    width: 320px;
+    height: 497px;
+    background-color: white;
+    border-radius: 20px; 
+    padding-top: 18px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/ 
+    align-items: center;
+}
+.qr-img{
+   width: 288px;
+   height: 288px;
+   background-color: rgb(0, 162, 255);
+   border-radius: 8px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.qr-img img{
+    width: 160px;
+    height: 160px;
+}
+.qr-card-texts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+}
+.qr-card-texts h1{
+    width: 288px;
+    font-size: 22px;
+    color: #1F314F;
+}
+.qr-card-texts p{
+    font-size: 15px;
+    color: #7B879D;
+    width: 256px;
+    font-size: 15px;
+}
+/* ეს კლასები ცოტა ბევრი  კი მიწერია მარა მაგასაც დავამუღამებ :DD */
